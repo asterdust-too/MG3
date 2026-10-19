@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
 
 public class Player : MonoBehaviour
 {
@@ -86,7 +87,8 @@ public class Player : MonoBehaviour
     {
         // Inside this method, increase the value of _points by one,
         // and update the _pointsText text with text displaying the new value of _points.
-        
+        ++_points;
+        _pointsText.text = "Points: " + _points;
     }
     // STEP 10 -----------------------------------------------------------------
 
