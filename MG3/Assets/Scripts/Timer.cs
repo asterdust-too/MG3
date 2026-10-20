@@ -11,7 +11,10 @@ public class Timer : MonoBehaviour
     // Make sure to TUNE this value in the INSPECTOR after you create it!
 
    [SerializeField] private float timerLeft;
-
+    [SerializeField] private float floatDefault;
+     [SerializeField] private int intDefault;
+      [SerializeField] private bool boolDefault;
+       [SerializeField] private string stringDefault;
     // STEP 1 -----------------------------------------------------------------
 
     // STEP 2 -----------------------------------------------------------------
